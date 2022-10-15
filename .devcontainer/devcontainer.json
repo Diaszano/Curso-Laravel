@@ -38,7 +38,9 @@
 				"rocketseat.RocketseatReactNative",
 				"lihui.vs-color-picker",
 				"styled-components.vscode-styled-components",
-				"christian-kohler.path-intellisense"
+				"christian-kohler.path-intellisense",
+				"mtxr.sqltools",
+				"mtxr.sqltools-driver-mysql"
 			]
 		}
 	},
