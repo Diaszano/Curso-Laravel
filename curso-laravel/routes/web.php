@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-
+ 
     $nome = "Lucas Dias";
     $arr = [1,2,3,4,5];
     $nomes = ['Lucas', 'Raila', 'Luana'];
