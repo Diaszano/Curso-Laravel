@@ -1,0 +1,12 @@
+{
+    "cSpell.words": [
+    ],
+    "files.exclude": {
+        "**/.git"         : true,
+        "**/LICENSE"      : true,
+        "**/.gitignore"   : true,
+        // "**/.devcontainer": true,
+    },
+    "dotenv.enableAutocloaking": true,
+    
+}
