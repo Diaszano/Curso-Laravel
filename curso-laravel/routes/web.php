@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
- 
+
     $nome = "Lucas Dias";
     $arr = [1,2,3,4,5];
     $nomes = ['Lucas', 'Raila', 'Luana'];
@@ -27,5 +27,12 @@ Route::get('/contact', function () {
 });
 
 Route::get('/produtos', function () {
-    return view('products');
+
+    $busca = request('search');
+
+    return view('products',['busca' => $busca]);
+});
+
+Route::get('/produto/{id?}', function ($id = null) {
+    return view('product',['id' => $id]);
 });
