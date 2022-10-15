@@ -37,7 +37,8 @@
 				"rocketseat.RocketseatReactJS",
 				"rocketseat.RocketseatReactNative",
 				"lihui.vs-color-picker",
-				"styled-components.vscode-styled-components"
+				"styled-components.vscode-styled-components",
+				"christian-kohler.path-intellisense"
 			]
 		}
 	},
