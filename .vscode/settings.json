@@ -5,7 +5,7 @@
         "**/.git"         : true,
         "**/LICENSE"      : true,
         "**/.gitignore"   : true,
-        // "**/.devcontainer": true,
+        "**/.devcontainer": true,
     },
     "dotenv.enableAutocloaking": true,
     
