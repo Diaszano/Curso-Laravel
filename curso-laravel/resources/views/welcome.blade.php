@@ -3,21 +3,34 @@
 @section('title', 'Diaszano Eventos')
 @section('content')
 
-<h1>Algum título</h1>
-<img src='/img/banner.jpg' alt='Banner'>
+<div id="search-container" class="col-md-12">
+    <h1>Busque um evento</h1>
+    <form action="">
+        <input type="text" id='search' name="search" class='form-control'
+            placeholder="Procurar...">
 
-@if(10<5)
-    <p>A condição é true</p>
-@endif
-
-@foreach($nomes as $nome)
-    <p>{{ $loop->index }} - {{ $nome }}</p>
-@endforeach
-
-@for($i = 0; $i < count($arr); $i++)
-    <p>{{ $arr[$i] }}</p>
-@endfor
-
-<p>{{ $nome }}</p>
+    </form>
+</div>
+<div id='events-container' class='col-md-12'>
+    <h2>Próximos eventos</h2>
+    <p>Veja os eventos dos próximos dias</p>
+    <div id='cards-container' class='row'>
+        @foreach($events as $event)
+            <div class='card col-md-3'>
+                <img src='/img/event_placeholder.jpg' alt='{{ $event->title }}'>
+                <div class="card-body">
+                    <div class='card-date'>
+                        18/11/2022
+                    </div>
+                    <h5 class="card-title">
+                        {{ $event->title }}
+                    </h5>
+                    <p class="card-participants">X Participantes</p>
+                    <a href="#" class="btn btn-primary">Saber mais</a>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</div>
 
 @endsection
