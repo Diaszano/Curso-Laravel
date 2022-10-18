@@ -40,7 +40,11 @@
 				"styled-components.vscode-styled-components",
 				"christian-kohler.path-intellisense",
 				"mtxr.sqltools",
-				"mtxr.sqltools-driver-mysql"
+				"mtxr.sqltools-driver-mysql",
+				"VisualStudioExptTeam.vscodeintellicode",
+				"thekalinga.bootstrap4-vscode",
+				"wcwhitehead.bootstrap-3-snippets",
+				"necinc.elmmet"
 			]
 		}
 	},
