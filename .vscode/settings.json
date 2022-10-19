@@ -7,7 +7,7 @@
         "**/.gitignore"   : true,
         "**/.devcontainer": true,
     },
-    "dotenv.enableAutocloaking": true,
+    "dotenv.enableAutocloaking": false,
     "sqltools.connections": [
         {
             "mysqlOptions": {
