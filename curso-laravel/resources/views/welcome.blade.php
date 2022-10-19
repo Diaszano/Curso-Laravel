@@ -20,7 +20,7 @@
                 <img src='/img/event_placeholder.jpg' alt='{{ $event->title }}'>
                 <div class="card-body">
                     <div class='card-date'>
-                        18/11/2022
+                        {{ $event->created_at }}
                     </div>
                     <h5 class="card-title">
                         {{ $event->title }}
