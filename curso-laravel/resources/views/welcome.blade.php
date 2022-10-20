@@ -8,7 +8,6 @@
     <form action="">
         <input type="text" id='search' name="search" class='form-control'
             placeholder="Procurar...">
-
     </form>
 </div>
 <div id='events-container' class='col-md-12'>
@@ -24,10 +23,9 @@
                     <img src='/img/event_placeholder.jpg'
                         alt='{{ $event->title }}'>
                 @endif
-
                 <div class="card-body">
                     <div class='card-date'>
-                        {{ $event->created_at }}
+                        {{ date('d/m/Y',strtotime($event->date)) }}
                     </div>
                     <h5 class="card-title">
                         {{ $event->title }}
@@ -38,6 +36,9 @@
                 </div>
             </div>
         @endforeach
+        @if(count($events) == 0)
+            <p>Não contém eventos disponíveis!</p>
+        @endif
     </div>
 </div>
 
