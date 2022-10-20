@@ -2,7 +2,7 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=laravel
 
 # Images
-curso-laravel/resources/views/events/*.jpg
+resources/views/events/*.jpg
 
 ### Laravel ###
 /vendor/
