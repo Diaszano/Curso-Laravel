@@ -27,7 +27,7 @@
             </p>
             <p class='events-owner'>
                 <ion-icon name='star-outline'></ion-icon>
-                Dono do Envento
+                {{$eventOwner['name']}}
             </p>
             <a href='#' class='btn btn-primary' id='event-submit'>
                 Confirmar Presença

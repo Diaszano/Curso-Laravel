@@ -38,7 +38,8 @@
         <div class="form-group">
             <label for="title">Descrição:</label>
             <textarea name="description" id="description" class="form-control"
-                placeholder="O que vai acontecer no evento?"></textarea>
+                placeholder="O que vai acontecer no evento?" defaultValue=''
+            ></textarea>
         </div>
         <div class="form-group">
             <label for="title">Adicione itens de infraestrutura:</label>
