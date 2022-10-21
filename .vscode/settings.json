@@ -4,7 +4,7 @@
     "files.exclude": {
         "**/.git"         : true,
         "**/LICENSE"      : true,
-        // "**/.gitignore"   : true,
+        "**/.gitignore"   : true,
         "**/.devcontainer": true,
     },
     "dotenv.enableAutocloaking": false,
